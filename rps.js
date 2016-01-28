@@ -19,12 +19,6 @@ var player2 = {
 
 
 
-function getHand() {
-	return hands[parseInt(Math.random()*10)%3];
-}
-
-
-
 function playRound(argPlayerObj1, argPlayerObj2) {
 	var hand1 = argPlayerObj1.getHand();
 	var hand2 = argPlayerObj2.getHand();
